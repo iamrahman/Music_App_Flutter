@@ -29,7 +29,7 @@ class _MusicImageState extends State<MusicImage> with SingleTickerProviderStateM
       crossAxisAlignment: CrossAxisAlignment.center,
       children: <Widget>[
         CircleAvatar(
-          radius: width*0.48,
+          radius: width*0.40,
           backgroundImage: NetworkImage('https://c.saavncdn.com/347/Background-Music-Kaabil-Hindi-2017-500x500.jpg'),
           child: CircleAvatar(
             backgroundColor: Colors.deepOrange[400],
